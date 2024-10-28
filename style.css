@@ -1,0 +1,22 @@
+/* style.css */
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* 画像の間隔を調整 */
+}
+
+.responsive-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover; /* 画像が枠にフィットするように調整 */
